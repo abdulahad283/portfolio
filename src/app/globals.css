@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply flex items-center justify-center gap-2 rounded-xl px-4 py-[10px] text-sm font-medium leading-[1.4] tracking-[-0.28px] transition-colors duration-200 ease-in-out hover:outline-none focus:outline-none;
+  }
+
+  .btn-dark {
+    @apply bg-[#1d1d26] text-white hover:bg-[#33333b];
+  }
+  .btn-light {
+    @apply bg-[#ededee] text-[#33333b] hover:bg-[#e3e3e4];
+  }
+  .chips {
+    @apply inline-flex items-center gap-[6px] self-start rounded-lg border border-[#ededee] bg-white px-3 py-[6px] text-xs font-medium leading-[1.4] tracking-[-0.12px] text-[#33333b];
+  }
+  .text-subheading {
+    @apply text-base font-medium leading-[1.2] tracking-[-0.48px] text-[#1d1d26];
+  }
+  .text-muted {
+    @apply text-xs font-medium leading-[1.4] tracking-[-0.12px] text-[#77777d];
+  }
+
+  .form-input {
+    @apply h-12 w-full rounded-lg border border-[#ededee] bg-[#f9f9f9] px-6 text-sm font-medium leading-[1.42857] text-[#1d1d26] transition-colors duration-200 ease-in-out placeholder:text-sm placeholder:font-medium placeholder:text-[#8e8e92] hover:border-[#8e8e92] focus:border-[#8e8e92] focus:outline-none;
+  }
+}
