@@ -3,7 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Footer from "@/components/layout/Footer";
 import ScrollRestoration from "@/components/ScrollRestoration";
-import FloatingContactButton from "@/components/layout/FloatingContactButton ";
+import FloatingContactButton from "@/components/layout/FloatingContactButton";
 
 const inter = Inter({ subsets: ["latin"] });
 
