@@ -35,7 +35,7 @@ export default function FloatingContactButton() {
       whileTap={{
         scale: 0.95,
       }}
-      className="fixed bottom-6 right-8 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#1d1d26] p-4 shadow-lg"
+      className="lg-nav:flex fixed bottom-6 right-8 z-50 hidden h-14 w-14 items-center justify-center rounded-full bg-[#1d1d26] p-4 shadow-lg"
       aria-label="Contact Me"
     >
       <MailSVG className="h-6 w-6 text-white" />

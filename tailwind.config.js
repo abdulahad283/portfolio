@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       screens: {
         xs: "480px",
+        "lg-nav": "992px",
       },
       maxWidth: {
         layout: "720px",
